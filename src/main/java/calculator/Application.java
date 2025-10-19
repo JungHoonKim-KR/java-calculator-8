@@ -8,7 +8,6 @@ import java.util.regex.Pattern;
 public class Application {
     // 커스텀 구분자 패턴: "//(구분자)\n(숫자)"
     private static final Pattern CUSTOM_DELIMITER_PATTERN = Pattern.compile("//(.)\n(.*)");
-
     // 기본 구분자 (쉼표 또는 콜론)
     private static final String DEFAULT_DELIMITERS = ",|:";
 
